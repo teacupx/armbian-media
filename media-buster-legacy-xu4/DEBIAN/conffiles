@@ -1,0 +1,2 @@
+/etc/X11/xorg.conf.d/02-exynos.conf
+/etc/chromium.d/zz-gpu-accel.conf

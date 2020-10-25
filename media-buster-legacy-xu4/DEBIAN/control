@@ -1,0 +1,10 @@
+Package: media-buster-legacy-xu4
+Version: 20.11.0
+Architecture: armhf
+Maintainer: JMCC <JMCC@localhost>
+Installed-Size: 1
+Section: x11
+Priority: optional
+Depends: linux-image-legacy-odroidxu4, armbian-buster-desktop, mali-xu4-x11, xserver-xorg-video-armsoc-exynos
+Replaces: armbian-bsp, linux-buster-root-legacy-tinkerboard, armbian-buster-desktop
+Description: Enables multimedia HW acceleration for Odroid XU4 (legacy branch)
