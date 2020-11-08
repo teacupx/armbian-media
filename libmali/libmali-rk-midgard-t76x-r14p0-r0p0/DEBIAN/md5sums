@@ -1,0 +1,4 @@
+dc90c9ff714736f6f882f7a11bc42a66  usr/lib/arm-linux-gnueabihf/libMali.so
+81f35b8e190ef1378556d08ad1a224d9  usr/share/doc/libmali-rk-midgard-t76x-r14p0-r0p0/changelog.Debian.gz
+24ebd6d3d7eb5ada686c537a15e9d76a  usr/share/doc/libmali-rk-midgard-t76x-r14p0-r0p0/copyright
+d87e60cbc1c504e30f49808907a94016  etc/OpenCL/vendors/mali.icd

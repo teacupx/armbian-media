@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${exec_prefix}/lib/arm-linux-gnueabihf
+Name: glesv1
+Description: Mali OpenGL ES 1.1
+Requires.private:
+Version: 13.0.6
+Libs: -L${libdir} -lGLESv1_CM
+Libs.private: -lm -lpthread -ldl
+Cflags: -I${includedir}

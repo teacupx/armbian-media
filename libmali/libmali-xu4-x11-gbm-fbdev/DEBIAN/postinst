@@ -1,0 +1,40 @@
+#!/bin/sh
+
+cd /usr/lib/arm-linux-gnueabihf
+
+ln -sf libmali.so libgbm.so
+ln -sf libgbm.so libgbm.so.1
+ln -sf libgbm.so.1 libgbm.so.1.0.0
+ln -sf libmali.so libEGL.so
+ln -sf libmali.so libOpenCL.so
+ln -sf libEGL.so libEGL.so.1
+ln -sf libEGL.so.1 libEGL.so.1.0.0
+ln -sf libEGL.so.1.0.0 libEGL.so.1.4
+ln -sf libmali.so libGLESv1_CM.so
+ln -sf libGLESv1_CM.so libGLESv1_CM.so.1
+ln -sf libGLESv1_CM.so.1 libGLESv1_CM.so.1.0.0
+ln -sf libmali.so libGLESv2.so
+ln -sf libGLESv2.so libGLESv2.so.2
+ln -sf libGLESv2.so.2 libGLESv2.so.2.0.0
+
+if [ -e /usr/local/lib/libgbm.so.19 ]; then
+	cd /usr/local/lib
+	rm -f libgbm.so
+	rm -f libgbm.so.1
+	rm -f libgbm.so.19
+	rm -f libgbm.so.19.0.0
+	rm -f libEGL.so
+	rm -f libEGL.so.1
+	rm -f libEGL.so.1.4
+	rm -f libGLESv1_CM.so
+	rm -f libGLESv1_CM.so.1
+	rm -f libGLESv1_CM.so.1.0.0
+	rm -f libGLESv2.so
+	rm -f libGLESv2.so.2
+	rm -f libGLESv2.so.2.0.0
+	rm -f libmali.so
+fi
+
+ldconfig
+
+exit 0

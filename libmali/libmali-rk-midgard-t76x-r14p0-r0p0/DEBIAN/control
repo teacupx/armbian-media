@@ -1,0 +1,14 @@
+Package: libmali-rk-midgard-t76x-r14p0-r0p0
+Source: libmali-rk
+Version: 1.6-1-0armbian1
+Architecture: armhf
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 17199
+Depends: libc6 (>= 2.15), libdrm2 (>= 2.3.1), libgcc1 (>= 1:3.5), libstdc++6 (>= 4.8), libx11-6, libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb1
+Replaces: libegl1, libegl1-mesa, libegl1-x11, libgbm1, libgles2-mesa, libgles2, libegl1-mesa-dev, libgbm-dev, libglvnd-dev
+Provides: libegl1, libegl1-mesa, libgbm1, libgles2-mesa, libgles2, libwayland-egl1-mesa
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.rock-chips.com/
+Description: The mali library for Rockchip RK3288(not included RK3288W).

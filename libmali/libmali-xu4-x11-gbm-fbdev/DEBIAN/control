@@ -1,0 +1,11 @@
+Package: libmali-xu4-x11-gbm-fbdev
+Priority: extra
+Section: video
+Installed-Size: 26180
+Maintainer: JMCC@forum.armbian.com
+Architecture: armhf
+Version: 19.0.6-2
+Depends: libc6 (>= 2.15), libdrm2 (>= 2.4.74), libgcc1 (>= 1:3.5), libstdc++6 (>= 4.9)
+Provides: libgles1-mesa, libgles1-mesa-dev, libgles2-mesa, libgles2-mesa-dev, libopenvg1-mesa, libopenvg1-mesa-dev, libegl1-mesa, libegl1-mesa-drivers, libegl1-mesa-dev, libegl1, libgles1, libgles2, libgbm1, libgbm-dev, mesa-common-dev
+Replaces: libgles1-mesa, libgles1-mesa-dev, libgles2-mesa, libgles2-mesa-dev, libopenvg1-mesa, libopenvg1-mesa-dev, libegl1-mesa, libegl1-mesa-drivers, libegl1-mesa-dev, libegl1, libgles1, libgles2, libgbm1, libgbm-dev, mesa-common-dev
+Description: Mali X11 FBDEV GBM Binary Driver and Development files

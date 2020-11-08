@@ -1,0 +1,22 @@
+#!/bin/sh
+
+cd /usr/lib/arm-linux-gnueabihf
+
+rm -f libgbm.so
+rm -f libgbm.so.1
+rm -f libgbm.so.1.0.0
+rm -f libEGL.so
+rm -f libEGL.so.1
+rm -f libEGL.so.1.0.0
+rm -f libEGL.so.1.4
+rm -f libGLESv1_CM.so
+rm -f libGLESv1_CM.so.1
+rm -f libGLESv1_CM.so.1.0.0
+rm -f libGLESv2.so
+rm -f libGLESv2.so.2
+rm -f libGLESv2.so.2.0.0
+rm -f libOpenCL.so
+
+ldconfig
+
+exit 0

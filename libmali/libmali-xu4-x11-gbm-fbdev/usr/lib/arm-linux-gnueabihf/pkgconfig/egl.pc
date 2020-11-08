@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${exec_prefix}/lib/arm-linux-gnueabihf
+Name: egl
+Description: Mali EGL
+Requires.private:
+Version: 13.0.6
+Libs: -L${libdir} -lEGL
+Libs.private: -lm -lpthread -ldl
+Cflags: -I${includedir} 
