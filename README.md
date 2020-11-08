@@ -11,4 +11,4 @@ Simply clone the repo and run the script:
   
   `$ bash ./crea-packages.sh`
   
-Packages will be created in the output/ directory.
+Packages will be created in the `output/` directory.
