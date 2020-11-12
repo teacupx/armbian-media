@@ -7,6 +7,7 @@ ln -sf libgbm.so libgbm.so.1
 ln -sf libgbm.so.1 libgbm.so.1.0.0
 ln -sf libmali.so libEGL.so
 ln -sf libmali.so libOpenCL.so
+ln -sf libmali.so libMaliOpenCL.so
 ln -sf libEGL.so libEGL.so.1
 ln -sf libEGL.so.1 libEGL.so.1.0.0
 ln -sf libEGL.so.1.0.0 libEGL.so.1.4

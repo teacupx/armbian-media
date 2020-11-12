@@ -16,6 +16,7 @@ rm -f libGLESv2.so
 rm -f libGLESv2.so.2
 rm -f libGLESv2.so.2.0.0
 rm -f libOpenCL.so
+rm -f libMaliOpenCL.so
 
 ldconfig
 
