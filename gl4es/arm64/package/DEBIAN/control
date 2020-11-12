@@ -1,0 +1,12 @@
+Package: gl4es
+Source: gl4es
+Version: 1.1.4-0armbian1
+Architecture: arm64
+Maintainer: JMCC <JMCC@forums.armbian.com>
+Installed-Size: 5320
+Replaces: libgl1
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://github.com/ptitSeb/gl4es
+Description: GLES 2.0 to OpenGL 2.1 wrapper.
