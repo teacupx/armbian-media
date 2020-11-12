@@ -1,0 +1,16 @@
+Package: libmali-rk-dev
+Source: libmali-rk
+Version: 1.6-1-0armbian1
+Architecture: armhf
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 981
+Replaces: libegl1-mesa-dev, libgbm-dev, libgles2-mesa-dev, opencl-c-headers, libwayland-dev, mesa-common-dev
+Provides: libegl1-mesa-dev, libgbm-dev, libgles2-mesa-dev, opencl-c-headers
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.rock-chips.com/
+Description: The mali library for Rockchip RK3288.
+ .
+ This package provides the development environment for compiling programs
+ against the GBM library.
