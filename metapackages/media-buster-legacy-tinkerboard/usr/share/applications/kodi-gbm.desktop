@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=Kodi (GBM)
+GenericName=Media Center
+GenericName[zh_CN]=媒体中心
+Comment=Manage and view your media
+Comment[ru]=Просмотр и управление мультимедиа
+Comment[zh_CN]=管理和查看您的媒体
+TryExec=/usr/local/lib/kodi/kodi-gbm
+Exec=zenity --text-info --title="Information" --window-icon=/usr/local/share/icons/hicolor/24x24/apps/kodi.png --html --filename="/usr/share/doc/armbian/help-pages/kodi-gbm.html" --width 600 --height 400 --cancel-label="Oooohh..." --ok-label="Got it!"
+Icon=kodi
+Terminal=false
+Type=Application
+Categories=AudioVideo;System

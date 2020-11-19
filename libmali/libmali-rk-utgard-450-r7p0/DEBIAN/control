@@ -1,0 +1,15 @@
+Package: libmali-rk-utgard-450-r7p0
+Source: libmali-rk
+Version: 1.6-22armbian0
+Architecture: arm64
+Maintainer: JMCC <JMCC at Armbian Forums>
+Installed-Size: 4704
+Depends: libc6 (>= 2.17), libdrm2 (>= 2.3.1), libx11-6 (>= 2:1.4.99.1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3
+Replaces: libwayland-egl1, libegl1, libgbm1, libgles1, libgles2, libmali-rk-utgard-2th-r7p0, libmali-rk-utgard-450-r7p0-gbm, libmali-rk-utgard-450-r7p0
+Provides: libwayland-egl1, libegl1, libgbm1, libgles1, libgles2, libmali-rk-utgard-2th-r7p0, libmali-rk-utgard-450-r7p0
+Breaks: libmali-rk-utgard-450-r7p0-wayland, libmali-rk-utgard-450-r7p0-wayland-x11
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.rock-chips.com/
+Description: The mali library for Rockchip RK3328, x11 flavor.

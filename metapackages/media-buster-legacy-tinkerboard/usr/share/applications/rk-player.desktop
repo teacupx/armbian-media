@@ -4,7 +4,7 @@ Type=Application
 Name=Rockchip Gst Player
 GenericName=Media Player
 Comment=A GStreamer base player
-Exec=env QT_GSTREAMER_WIDGET_VIDEOSINK=rkximagesink /usr/lib/arm-linux-gnueabihf/qt5/examples/multimediawidgets/player/player --geometry 960x640+0+0
+Exec=env QT_GSTREAMER_WIDGET_VIDEOSINK=rkximagesink /usr/lib/aarch64-linux-gnu/qt5/examples/multimediawidgets/player/player --geometry 960x640+0+0
 Icon=/usr/share/icons/gnome/48x48/categories/applications-multimedia.png
 Terminal=false
 Categories=Qt;AudioVideo;Player;Video;

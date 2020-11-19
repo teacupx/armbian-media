@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Kodi-GBM
+Comment=This session will start Kodi media center
+Exec=kodi-gbm-wrapper
+TryExec=/usr/local/lib/kodi/kodi-gbm
+Type=Application
+X-LightDM-Session-Type=wayland
