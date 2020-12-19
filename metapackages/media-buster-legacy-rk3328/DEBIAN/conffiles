@@ -1,2 +1,3 @@
 /etc/X11/xorg.conf.d/02-rockchip-accel.conf
 /etc/chromium.d/zz-gpu-accel.conf
+/etc/mpv/mpv.conf

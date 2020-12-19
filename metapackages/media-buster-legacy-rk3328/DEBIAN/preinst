@@ -1,0 +1,11 @@
+#!/bin/sh
+#
+#  media integration pre-inst script
+#
+
+# Remove package diversion for mpv.conf
+EVILPACKAGE=$( dpkg-divert --list | grep mpv.conf | grep -oE '[^ ]+$' )
+
+dpkg-divert --package $EVILPACKAGE --no-rename --remove /etc/mpv/mpv.conf
+
+exit 0
