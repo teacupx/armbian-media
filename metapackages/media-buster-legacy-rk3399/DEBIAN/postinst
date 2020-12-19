@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# tinkerboard media legacy post-inst script
+# RK3399 media legacy post-inst script
 #
 
 DEFAULTUSER=$(getent passwd 1000 | cut -f1 -d:)
@@ -12,11 +12,11 @@ sed -i -e 's/name="use_compositing" type="bool" value="true"/name="use_compositi
 # Workaround for older armbian configs
 rm -f /etc/X11/xorg.conf.d/02-driver.conf
 
-# Restart lightdm if exists
-systemctl restart lightdm.service || true
-
 # Config user and env for Kodi service
 systemd-sysusers
 systemd-tmpfiles --create
+
+# Suggest reboot
+echo -e "\n\033[0;32m#########################################\n# Configuration finished. PLEASE REBOOT #\n#########################################\033[0m\n"
 
 exit 0

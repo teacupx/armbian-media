@@ -3,6 +3,4 @@
 # tinkerboard media legacy post-removal script
 #
 
-systemctl restart lightdm.service || true
-
 exit 0
