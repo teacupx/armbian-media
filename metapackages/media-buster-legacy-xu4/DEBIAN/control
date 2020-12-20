@@ -5,7 +5,7 @@ Maintainer: JMCC <JMCC@localhost>
 Installed-Size: 1
 Section: x11
 Priority: optional
-Depends: linux-image-legacy-odroidxu4, armbian-buster-desktop, mali-x11-gbm-fbdev | libmali-xu4-x11-gbm-fbdev, xserver-xorg-video-armsoc-exynos, kodi-xu4 | kodi-xu4-gbm, ffmpeg-xu4
+Depends: linux-image-legacy-odroidxu4, armbian-buster-desktop, mali-x11-gbm-fbdev | libmali-xu4-x11-gbm-fbdev, xserver-xorg-video-armsoc-exynos, kodi-xu4 | kodi-xu4-gbm, ffmpeg-xu4, mpv-legacy
 Recommends: kodi-addons-full, gl4es
 Replaces: armbian-bsp, linux-buster-root-legacy-xu4, armbian-buster-desktop
 Description: Enables multimedia HW acceleration for Odroid XU4 (legacy branch)

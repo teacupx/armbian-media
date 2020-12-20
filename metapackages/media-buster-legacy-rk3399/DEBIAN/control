@@ -5,7 +5,7 @@ Maintainer: JMCC <JMCC@localhost>
 Installed-Size: 1
 Section: x11
 Priority: optional
-Depends: linux-image-legacy-rockchip64 | linux-image-legacy-rk3399, libmali-rk-midgard-t86x-r14p0-r0p0, xserver-xorg-core-rockchip, librockchip-mpp1, librockchip-vpu0, gstreamer1.0-rockchip1, gstreamer1.0-rockchip1-extra, qtmultimedia5-examples, qtgstreamer-plugins-qt5, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-plugins-good, kodi-rk
+Depends: linux-image-legacy-rockchip64 | linux-image-legacy-rk3399, libmali-rk-midgard-t86x-r14p0-r0p0, xserver-xorg-core-rockchip, librockchip-mpp1, librockchip-vpu0, gstreamer1.0-rockchip1, gstreamer1.0-rockchip1-extra, qtmultimedia5-examples, qtgstreamer-plugins-qt5, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-plugins-good, kodi-rk, mpv-legacy
 Recommends: kodi-addons-full, gl4es
 Replaces: armbian-bsp, linux-buster-root-legacy-rk3399, armbian-buster-desktop
 Description: Enables multimedia HW acceleration for rk3399 (legacy branch)
