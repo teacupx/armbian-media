@@ -1,6 +1,6 @@
 Package: gl4es
 Source: gl4es
-Version: 1.1.4-0armbian1
+Version: 1.1.5-0armbian1
 Architecture: arm64
 Maintainer: JMCC <JMCC@forums.armbian.com>
 Installed-Size: 5320
