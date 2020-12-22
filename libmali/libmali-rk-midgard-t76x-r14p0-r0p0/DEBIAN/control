@@ -1,6 +1,6 @@
 Package: libmali-rk-midgard-t76x-r14p0-r0p0
 Source: libmali-rk
-Version: 1.6-1-1armbian1
+Version: 1.6-1-1armbian2
 Architecture: armhf
 Maintainer: JMCC <JMCC@forumarmbian.com>
 Installed-Size: 17199

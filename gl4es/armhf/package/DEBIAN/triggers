@@ -1,0 +1,2 @@
+# Run ldconfig on installation
+activate-noawait ldconfig

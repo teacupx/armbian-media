@@ -1,6 +1,6 @@
 Package: libmali-rk-utgard-450-r7p0
 Source: libmali-rk
-Version: 1.6-22armbian0
+Version: 1.6-22armbian2
 Architecture: arm64
 Maintainer: JMCC <JMCC at Armbian Forums>
 Installed-Size: 4704

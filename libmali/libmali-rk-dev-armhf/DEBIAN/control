@@ -1,6 +1,6 @@
 Package: libmali-rk-dev
 Source: libmali-rk
-Version: 1.6-1-0armbian1
+Version: 1.6-1-1armbian2
 Architecture: armhf
 Maintainer: Randy Li <randy.li@rock-chips.com>
 Installed-Size: 981

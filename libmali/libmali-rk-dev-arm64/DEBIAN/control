@@ -1,6 +1,6 @@
 Package: libmali-rk-dev
 Source: libmali-rk
-Version: 1.6-1-0armbian1
+Version: 1.6-1-1armbian2
 Architecture: arm64
 Maintainer: JMCC <JMCC@forum.armbian.com>
 Installed-Size: 981
